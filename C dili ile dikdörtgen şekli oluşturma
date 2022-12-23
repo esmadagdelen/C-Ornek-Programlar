@@ -1,0 +1,24 @@
+int main() {
+
+	//  FOR İLE ENİ 2 BOYU 5 BR OLAN DİKDÖRTGEN ŞEKLİ OLUŞTURMA
+
+	int i, j;
+
+	for (i = 0; i <= 4; i++) {
+
+		for (j = 1; j <= 2; j++) {
+
+			printf("*");
+		}
+
+		printf("\n");
+	}
+		return 0;
+	
+
+
+
+
+
+
+}
