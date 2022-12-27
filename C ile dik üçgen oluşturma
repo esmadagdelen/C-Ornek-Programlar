@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+//  Taban değeri kullanıcıdan alınan dik üçgen oluşturma
+
+
+
+int main(){
+
+int i, j, taban;
+
+	printf("taban degerini giriniz: ");
+	scanf_s("%d",&taban);
+
+	for (i = 1; i <= taban; i++) {
+
+		for (j = 1; j <= i; j++) {
+
+			printf("*");
+
+		}
+
+		printf("\n");
+
+
+	}
+
+
+return 0;
+
+}
